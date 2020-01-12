@@ -31,4 +31,9 @@ def findempty(b):
                 return (i, j)
     return None
 
+def checkvalid(b, n, pos):
+    for i in range(len(b[0])):
+        if b[pos[0]][i] == n and pos[1] != i:
+            return False
+
 printboard(board)
