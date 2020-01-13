@@ -36,4 +36,9 @@ def checkvalid(b, n, pos):
         if b[pos[0]][i] == n and pos[1] != i:
             return False
 
+    for i in range(len(b[0]))
+        if b[i][pos[1]] == n and pos[0] != i:
+            return False
+
+    
 printboard(board)
